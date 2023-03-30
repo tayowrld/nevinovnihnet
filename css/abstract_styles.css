@@ -1,0 +1,41 @@
+.abstract_main_block_curve{
+    position: absolute;
+    width: 70vw;
+    top: 30px;
+    left: 0;
+    z-index: -1;
+}
+
+.abstract_menu_block_curve_1{
+    position: absolute;
+    top: 1300px;
+    width: 100vw;
+    z-index: 10;
+}
+
+.abstract_menu_block_curve_2{
+    position: absolute;
+    top: 2040px;
+    width: 100vw;
+}
+
+.abstract_birthday_block_curve_1{
+    position: absolute;
+    top: 3320px;
+    width: 100vw;
+    z-index: 10;
+}
+
+.abstract_birthday_block_curve_2{
+    position: absolute;
+    top: 4330px;
+    width: 100vw;
+}
+
+.abstract_faq_block_curve{
+    position: absolute;
+    top: 5020px;
+    rotate: -10deg;
+    width: 105vw;
+    z-index: 10;
+}

@@ -1,0 +1,690 @@
+body {
+    padding: 0;
+    width: 100vw;
+    margin: 0 auto;
+    font-family: Inter;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    overflow-x: hidden;
+}
+
+.centerside{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    width: 100vw;
+    height: 100px;
+}
+
+.tayo-nn_navBlock{
+    width: 100%;
+    height: 100px;
+    position: relative;
+}
+
+.tayo-nn_navDesktop{
+    margin: auto;
+    width: 1320px;
+    height: fit-content;
+    text-transform: uppercase;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.tayo-nn_navElementDesktop{
+    display: inline;
+    float: left;
+    padding: 30px 45px;
+    width: max-content;
+    height: max-content;
+}
+
+.tayo-nn_navElementDesktop p {
+    cursor: pointer;
+}
+
+.tayo-nn_button.button_figure.nav{
+    position: absolute;
+    text-align: center;
+    width: 188px;
+    height: 45px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 500;
+}
+.tayo-nn_button.button_figure.nav p{
+    color:white;
+}
+
+.tayo-nn_navElementDesktop p{
+    color:#0B8882;
+}
+
+.tayo-nn_navElementDesktopYandexPortal{
+    position: relative;
+}
+
+.yandeximgButton{
+    margin-left: calc(97px + 45px);
+    width: 190px;
+    height: 45px;
+    position: relative;
+}
+
+.ya2.nav{
+    position: absolute;
+    top:-28px;
+    left: calc(137px + 7px);
+}
+
+.ya3.nav{
+    position: absolute;
+    top:-28px;
+    left: calc(137px + 7px);
+}
+
+.tayo-nn_mainBlock{
+    position: relative;
+    width: 100%;
+    height:1250px;
+}
+
+.main_block_img{
+    margin-top: 40px;
+    width: 1500px;
+}
+
+.tayo-nn_button.button_figure.main_block{
+    position: absolute;
+    text-align: center;
+    width: 315px;
+    height: 40px;
+    top: 820px;
+    left: calc(50% - 315px / 2);
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    padding-top:11px;
+    font-weight: 500;
+}
+
+.tayo-nn_logoblock.main_block{
+    position: absolute;
+    top: 80px;
+    left: calc(50% - 749px);
+}
+
+.tayo-nn_logo{
+    width: 800px;
+}
+
+.bg_orange{
+    background-color: #F7B267;
+}
+
+.bg_green{
+    background-color:#0B8882;
+}
+
+.bg_white{
+    background-color:white;
+}
+
+
+
+.tayo-nn_infoblock.main_block{
+    position: absolute;
+    top: 50px;
+    width: 480px;
+    height: 140px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    right: calc(50% - 739px);
+}
+
+
+
+
+
+.tayo-nn_menu_block{
+    position: relative;
+    top: auto;
+    width: 100vw;
+    height: 940px;
+    margin: auto;
+}
+
+
+
+.menu_block_img{
+    position: absolute;
+    width: 734px;
+    border: 5px solid #F7B267;
+    margin: 25px;
+    right: calc(50% - 874px);
+}
+
+.quote_block.menu{
+
+    position: absolute;
+    top: 140px;
+    left: calc(50% - 855px);
+
+    width: 700px;
+    height: 270px;
+}
+
+.quote_menu_block{
+    width: 100%;
+    height: 231px;
+}
+
+.quote_img{
+    position: absolute;
+    top:220px;
+    left: calc(50% - 849px);
+}
+
+.text_block.menu{
+    position: absolute;
+    width: 480px;
+    text-align: justify;
+    color: white;
+    top:500px;
+    left: calc(50% - 849px);
+    font-size: 18px;
+}
+
+.tayo-nn_button.button_figure.menu{
+    position: absolute;
+    text-align: center;
+    width: 346px;
+    height: 50px;
+    top: 700px;
+    left: calc(50% - 849px);
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+
+
+.tayo-nn_gallery_block{
+    width: 100%;
+    height: 1250px;
+    position: relative;
+}
+
+.gallery_logo_text{
+    position: absolute;
+    top: 131px;
+    left: calc(50% - 749px);
+}
+
+.gallery_logo_text span{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 120px;
+    line-height: 20px;
+    background: linear-gradient(174deg, #0B8882 74%, #ffffff 74%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text_block.gallery{
+    position: absolute;
+    top:80px;
+    right: calc(50% - 749px);
+
+    width: 480px;
+    text-align: justify;
+}
+.text.gallery{
+    font-size: 18px;
+}
+
+.gallery_space.flex{
+    position: relative;
+    width: 1577px;
+    top: 250px;
+    height: 210;
+    left: calc(50% - 1577px / 2);
+    z-index: -1;
+    object-fit: cover;
+}
+
+.gallery_element.el3{
+    width: 360px;
+    height: 455px;
+}
+
+
+.quote_block{
+
+
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 90px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.quote_block.birthday{
+
+    position: absolute;
+    top: 140px;
+    right: calc(50% - 765px);
+
+    width: 700px;
+    height: 270px;
+}
+
+
+.tayo-nn_birthday_block{
+    position: relative;
+    top: auto;
+    width: 100vw;
+    height: 940px;
+    margin: auto;
+}
+
+.tayo-nn_birthday_block_bg{
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 940px;
+    margin: auto;
+    background-color: #0B8882;
+}
+
+.birthday_block_img{
+    position: absolute;
+    width: 734px;
+    border: 5px solid #F7B267;
+    margin: 25px;
+    left: calc(50% - 874px);
+}
+
+.quote_img{
+    position: absolute;
+    top:180px;
+    right: calc(50% - 849px);
+}
+
+.text_block.birthday{
+    position: absolute;
+    width: 480px;
+    text-align: justify;
+    color: white;
+    top:480px;
+    right: calc(50% - 549px);
+    font-size: 18px;
+}
+
+.tayo-nn_button.button_figure.birthday{
+    position: absolute;
+    text-align: center;
+    width: 456px;
+    height: 50px;
+    top: 720px;
+    right: calc(50% - 520px);
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;  
+}
+
+
+
+
+
+.tayo-nn_block_green_bg{
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 940px;
+    margin: auto;
+    background-color: #0B8882;
+}
+
+.tayo-nn_faq_block{
+    position: relative;
+    width: 100%;
+    height: 840px;
+}
+
+
+.quote_block.faq{
+    position: absolute;
+    left: calc(50% - 749px);
+}
+
+.text_block.faq{
+    position: absolute;
+    top:112px;
+    right: calc(50% - 749px);
+
+    width: 480px;
+    text-align: justify;
+}
+.text.faq{
+    font-size: 18px;
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Hind:300,400&display=swap');
+* {
+  box-sizing: border-box;
+}
+*::before, *::after {
+  box-sizing: border-box;
+}
+
+.accordion{
+    position: absolute;
+    width: 700px;
+    height: 550px;
+    top: 300px;
+    left: calc(50% + 60px);
+}
+.accordion .accordion-item {
+  border-bottom: 1px solid bisque;
+}
+.accordion .accordion-item button[aria-expanded='true'] {
+  border-bottom: 1px solid #F7B267;
+}
+.accordion button {
+  position: relative;
+  display: block;
+  text-align: left;
+  width: 100%;
+  padding: 1em 0;
+  color: black;
+  font-size: 1.15rem;
+  font-weight: 400;
+  border: none;
+  background: none;
+  outline: none;
+}
+.accordion button:hover, .accordion button:focus {
+  cursor: pointer;
+  color: #0B8882;
+}
+.accordion button:hover::after, .accordion button:focus::after {
+  cursor: pointer;
+  color: #F7B267;
+  border: 1px solid #F7B267;
+}
+.accordion button .accordion-title {
+    padding: 10px 1.5em 10px 0;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 20px;
+}
+.accordion button .icon {
+  display: inline-block;
+  position: absolute;
+  top: 18px;
+  right: 0;
+  width: 38px;
+  height: 38px;
+  border: 1px solid;
+  border-radius: 22px;
+}
+.accordion button .icon::before {
+  display: block;
+  position: absolute;
+  content: '';
+  left: 9px;
+  top: 16px;
+  width: 17px;
+  height: 3.5px;
+  background: currentColor;
+}
+.accordion button .icon::after {
+  display: block;
+  position: absolute;
+  content: '';
+  top: 9px;
+  left: 16px;
+  width: 3.5px;
+  height: 17px;
+  background: currentColor;
+}
+.accordion button[aria-expanded='true'] {
+  color: #03b5d2;
+}
+.accordion button[aria-expanded='true'] .icon::after {
+  width: 0;
+}
+.accordion button[aria-expanded='true'] + .accordion-content {
+  opacity: 1;
+  max-height: 9em;
+  transition: all 200ms linear;
+  will-change: opacity, max-height;
+}
+.accordion .accordion-content {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: opacity 200ms linear, max-height 200ms linear;
+  will-change: opacity, max-height;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+}
+.accordion .accordion-content p {
+  font-size: 1rem;
+  font-weight: 300;
+  margin: 2em 0;
+}
+
+
+
+.quote_block.reviews{
+
+    position: absolute;
+    top: 0px;
+    right: calc(50% - 1300px / 2);
+    font-size: 80px;
+
+    width: 1300px;
+    height: 270px;
+}
+
+
+.tayo-nn_reviews_block{
+    position: relative;
+    top: auto;
+    width: 100vw;
+    height: 390px;
+    margin: auto;
+}
+
+.tayo-nn_block_green_bg.reviews{
+    height: 380px;
+}
+
+.tayo-nn_reviews_block_bg{
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 940px;
+    margin: auto;
+    background-color: #0B8882;
+}
+
+.reviews_block_img{
+    position: absolute;
+    width: 734px;
+    border: 5px solid #F7B267;
+    margin: 25px;
+    left: calc(50% - 874px);
+}
+
+.text_block.reviews{
+    position: absolute;
+    width: 870px;
+    text-align: justify;
+    color: white;
+    top:180px;
+    text-align: center;
+    right: calc(50% - 870px / 2);
+    font-size: 18px;
+}
+
+.tayo-nn_button.button_figure.reviews{
+    position: absolute;
+    text-align: center;
+    width: 320px;
+    height: 50px;
+    top: 280px;
+    right: calc(50% - 320px / 2);
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.tayo-nn_contacts_block{
+    position: relative;
+    width: 100vw;
+    height: 620px;
+}
+
+.quote_block.contacts{
+    position: absolute;
+    color: #0B8882;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 120px;
+    line-height: 20px;
+    left: calc(50% - 749px);
+    top: 0px;
+}
+
+.icons_container{
+    position: absolute;
+    width: 1280px;
+    height: 400px;
+
+    top: 220px;
+    left: calc(50% - 1280px / 2);
+    display: flex;
+    float: left;
+}
+
+.elements_group.contacts{
+    position: relative;
+    top: 50px;
+    width: 440px;
+    height: 400px;
+}
+
+.icon-block.ic1{
+    width: 120px;
+    position: absolute;
+    left: calc(50% - 120px / 2);
+}
+
+.headline.ic1{
+    position: absolute;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    width: 380px;
+
+    top: calc(160px);
+    left: calc(50% - 380px / 2);
+}
+
+.underline.ic1{
+    text-align: center;
+    position: absolute;
+    font-family: 'Jost';
+    font-style: normal; 
+    font-size: 18px;
+    width: 140px;
+
+    top: calc(220px);
+    left: calc(50% - 140px / 2);
+}
+
+
+.icon-block.ic2{
+    width: 120px;
+    position: absolute;
+    left: calc(50% - 120px / 2);
+}
+
+.headline.ic2{
+    position: absolute;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    width: 300px;
+
+    top: calc(160px);
+    left: calc(50% - 300px / 2);
+}
+
+.underline.ic2{
+    text-align: center;
+    position: absolute;
+    font-family: 'Jost';
+    font-style: normal; 
+    font-size: 18px;
+    width: 360px;
+
+    top: calc(220px);
+    left: calc(50% - 360px / 2);
+}
+
+
+
+
+
+.icon-block.ic3{
+    width: 120px;
+    position: absolute;
+    left: calc(50% - 120px / 2);
+}
+
+.headline.ic3{
+    position: absolute;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    width: 330px;
+
+    top: calc(160px);
+    left: calc(50% - 330px / 2);
+}
+
+.underline.ic3{
+    text-align: center;
+    position: absolute;
+    font-family: 'Jost';
+    font-style: normal; 
+    font-size: 18px;
+    width: 240px;
+
+    top: calc(220px);
+    left: calc(50% - 240px / 2);
+}
