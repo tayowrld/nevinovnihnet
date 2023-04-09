@@ -1,0 +1,383 @@
+@media screen and (max-width:1600px) {
+    .inner.main_section{
+        width: 100%;
+    }
+    .img.main_section{
+        width: 100%;
+    }
+    .button_block{
+        width: 100%;
+    }
+    .text_main_section{
+        width: 1200px;
+    }
+    .text.text_main_section h1{
+        font-size: 145px;
+    }
+    .text.text_main_section p{
+        font-size: 15px;
+    }
+    .menu__section h1{
+        font-size: 50px;
+        line-height: 60px;
+        margin: 200px 200px 0 200px;
+    }
+    .menu__section p{
+        width: 400px;
+        font-size: 16px;
+        line-height: 16px;
+        text-align: justify;
+        margin: 30px 202px 0 204px;
+    }
+    .button_tn01.menu_section{
+        margin: 70px 202px 0 204px;
+    }
+    .img__main.menu_section{
+        width: 600px;
+        right: 200px;
+    }
+    .gallery__section{
+        width: 1600px;
+        height: 1000px;
+        position: static;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .gallery__section h1{
+        width: fit-content;
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 120px;
+        line-height: 90px;
+        text-transform: uppercase;
+        margin: 80px 300px 0 300px;
+        color: #0B8882;
+    }
+    .gallery__section p{
+        width: 400px;
+        text-align: center; 
+        position: static;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 20px;
+        margin: 50px 300px 0 300px;
+    }
+    .grid1.gallery_section{
+        width: 1100px;
+        height: 300px;
+        display: grid;
+        grid-template-columns: 300px 500px 200px;
+        gap: 10px 0px;
+    }
+    .grid2.gallery_section{
+        width: 1100px;
+        height: 300px;
+        display: grid;
+        grid-template-columns: 500px 300px 200px;
+        gap: 10px 0px;
+    }
+    .img1, .img3, .img5, .img6{
+        width:300px;
+        height:300px;
+        object-fit:cover;
+        padding: 10px;
+    }
+    .img2, .img4{
+        width:500px;
+        height:300px;
+        object-fit:cover;
+        padding: 10px;
+    }
+    .text__block.birthday_section h1{
+        font-size: 50px;
+        line-height: 60px;
+        margin: 200px 0;
+    }
+    .text__block.birthday_section p{
+        width: 400px;
+        font-size: 16px;
+        line-height: 16px;
+    }
+    .button_tn01.birthday_section{
+        margin: 600px 0 0 0;
+    }
+    .img__main.birthday_section{
+        position: absolute;
+        width: 600px;
+        border: 5px solid #F7B267;
+        top: 0;
+        left: 200px;
+    }
+    .faq__section{
+        width: 1200px;
+        height: 900px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: flex-start;
+    }
+    .paragraph.faq_section{
+        width: 400px;
+        position:static;
+        margin: 100px 0;
+    }
+    .accordion{
+        width: 900px;
+        position: static;
+    }
+
+    .review__section{
+        width: 1000px;
+    }
+    .review__section h1{
+        font-size: 60px;
+    }
+    .review__section p{
+        width: 800px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .button_tn01.review_section{
+        text-transform: uppercase;
+        padding: 15px;
+    }
+
+    .contacts__section{
+        width: 1200px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .el2.contacts_section{
+        display: none;
+    }
+
+    .footer__section{
+        width: 1200px;
+    }
+
+    .contactInformation.footer_section{
+        width: 450px;
+    }
+}
+@media screen and (max-width:1200px) {
+    .desktop{
+        display: none;
+    }
+    .mobile{
+        display: flex;
+    }
+    .inner.nav_section{
+        width: 840px;
+        max-height: 70px;
+    }
+    .navbar.nav_section{
+        width: 840px;
+        height: 50px;
+    }
+    .main__section{
+        margin: 0;
+    }
+    .inner.main_section{
+        width: 100%;
+        position: relative;
+    }
+    .img.main_section{
+        position: absolute;
+        width: 100%;
+        top: 0;
+        right: 0;
+    }
+    .button_block{
+        width: 900px;
+    }
+    .text_main__section{
+        height: 350px;
+    }
+    .text_main_section{
+        width: 900px;
+        height: 200px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .text.text_main_section h1{
+        font-size: 125px;
+    }
+    .text.text_main_section p{
+        font-size: 15px;
+        position: static;
+        text-align: center;
+    }
+    .menu__section{
+        width: 900px;
+        position: static;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .menu__section h1{
+        width: 700px;
+        font-size: 50px;
+        line-height: 60px;
+        margin: 20px 0;
+        position: static;
+        text-align: center;
+    }
+    .menu__section p{
+        width: 600px;
+        font-size: 16px;
+        line-height: 16px;
+        margin: 0;
+        position: static;
+        text-align: center;
+    }
+    .button_tn01.menu_section{
+        text-align: center;
+        width: 400px;
+        margin: 50px 50px 0 50px;
+    }
+    .img__block.menu_section{
+        position: static;
+    }
+    .img__main.menu_section{
+        position: static;
+        width: 900px;
+        height: 400px;
+        object-fit: cover;
+        margin-bottom: 50px;
+    }
+    .gallery__section{
+        width: 1600px;
+        height: 1000px;
+        position: relative;
+    }
+    .grid1.gallery_section{
+        width: 850px;
+        height: 300px;
+        display: grid;
+        grid-template-columns: 250px 350px 200px;
+        gap: 10px 0px;
+    }
+    .grid2.gallery_section{
+        width: 850px;
+        height: 300px;
+        display: grid;
+        grid-template-columns: 350px 250px 200px;
+        gap: 10px 0px;
+    }
+    .img1, .img3, .img5, .img6{
+        width:250px;
+        height:300px;
+        object-fit:cover;
+        padding: 10px;
+    }
+    .img2, .img4{
+        width:350px;
+        height:300px;
+        object-fit:cover;
+        padding: 10px;
+    }
+    .birthday__section{
+        width: 1000px;
+        position: static;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .text__block.birthday_section{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .text__block.birthday_section h1{
+        position: static;
+        width: 500px;
+        font-size: 50px;
+        line-height: 60px;
+        margin: 50px 100px 0 100px;
+        text-align: center;
+    }
+    .text__block.birthday_section p{
+        text-align: center;
+        position: static;
+        width: 700px;
+        font-size: 16px;
+        line-height: 16px;
+        margin: 20px 100px 0 100px;
+    }
+    .button_tn01.birthday_section {
+        position: static;
+        margin: 0;
+        width: 600px;
+        height: 36px;
+        text-align: center;
+        margin: 20px 0 0 0;
+    }
+    .img_block.birthday_section{
+        width: 900px;
+    }
+    .img__main.birthday_section{
+        position: static;
+        width: 900px;
+        height: 400px;
+        object-fit: cover;
+        margin: 0;
+        margin-bottom: 50px;
+    }
+    .faq__section{
+        width: 1200px;
+        height: 900px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: flex-start;
+    }
+    .paragraph.faq_section{
+        width: 400px;
+        position:static;
+        margin: 100px 0;
+    }
+    .accordion{
+        width: 900px;
+        position: static;
+    }
+
+    .review__section{
+        width: 1000px;
+    }
+    .review__section h1{
+        font-size: 60px;
+    }
+    .review__section p{
+        width: 800px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .button_tn01.review_section{
+        text-transform: uppercase;
+        padding: 15px;
+    }
+
+    .contacts__section{
+        width: 1200px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .el2.contacts_section{
+        display: none;
+    }
+
+    .footer__section{
+        width: 1200px;
+    }
+
+    .contactInformation.footer_section{
+        width: 450px;
+    }
+}

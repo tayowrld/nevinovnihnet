@@ -7,3 +7,8 @@
     font-family: Jost;
     src: url(../fonts/jost.ttf);
 }
+
+@font-face {
+    font-family: atlantic;
+    src: url(../fonts/atlanticcruiserusbylyajka.otf);
+}

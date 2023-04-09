@@ -1,0 +1,897 @@
+
+/* main styles for standart classes and HTML tags (@tayo) */
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter';
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.bg_green{
+    background-color: #0B8882;
+}
+.bg_orange{
+    background-color: #F7B267;
+}
+.bg_white{
+    background-color: white;
+}
+
+h1{
+    font-size: 1.5em;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.background_block_green{
+    position: absolute;
+    width: 100vw;
+    left: 0;
+    background-color: #0B8882;
+    z-index: -2;
+}
+
+
+.container__popup{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background: rgba(0, 0, 0, 0.802);
+    z-index: 100;
+    padding-top: 100px;
+    transition: opacity 0.8s;
+    -webkit-transition: opacity 0.8s;
+    -moz-transition: opacity 0.8s;
+    -ms-transition: opacity 0.8s;
+    -o-transition: opacity 0.8s;
+}
+
+.inner.container_popup{
+    width: 700px;
+    height: 800px;
+    border-radius: 2%;
+    background: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    -webkit-border-radius: 2%;
+    -moz-border-radius: 2%;
+    -ms-border-radius: 2%;
+    -o-border-radius: 2%;
+    padding: 50px 0;
+    position: relative;
+}
+.inner.container_popup img.cross{
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    cursor: pointer;
+}
+.inner.container_popup input{
+    width: 600px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    text-align: start;
+    padding: 0px 18px;
+    gap: 10px;
+
+    border: 1px solid #B0B0D7;
+    border-radius: 10px;
+    margin: 5px 0;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    border-color: #B0B0D7;
+}
+
+.inner.container_popup h1{
+    width: 420px;
+    height: 50px;
+    font-size: 34px;
+    font-style: normal;
+    font-family: 'Jost';
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.inner.container_popup ul li img{
+    width: 14px;
+}
+.inner.container_popup ul li{
+    width: 500px;
+    display: flex;
+    float: left;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.inner.container_popup ul li p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #1F1F33;
+    padding: 0 10px;
+}
+
+.inner.container_popup div.underline{
+    width: 600px;
+    height: 1px;
+    background: #F7B267;
+    margin-bottom: 20px;
+}
+
+.inner.container_popup p.bron{
+    width: 330px;
+    height: 34px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 140%;
+    margin-right: 265px;
+    margin-top: -40px;
+}
+
+.container__popup input.submit{
+    width: fit-content;
+    color:white;
+    background-color: #0B8882;
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    margin: 20px 0 0 450px;
+}
+
+/* styles for ".nav__section"
+fast ecscourse:
+__ = the main class 
+_ = the double class for styling other elements in block or section
+*/
+
+.nav__section{
+    width: 100%;
+    height: 70px;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.inner.nav_section{
+    width: 940px;
+    max-height: 70px;
+}
+
+.navbar.nav_section{
+    width: 940px;
+    height: 50px;
+    display: flex;
+    float: left;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: center;
+
+    color: #0B8882;
+    list-style-type: none;
+    text-transform: uppercase;
+}
+
+.link.nav_element{
+    color: #0B8882;
+}
+
+.button_tn01{
+    width: max-content;
+    padding: 10px;
+    margin-top: -10px;
+    border-radius:12px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.button_tn02.image{
+    position: relative;
+    margin-top: -8px;
+}
+
+.part__1.button_tn02{
+    width: 110px;
+}
+
+.part__2.button_tn02{
+    width: 35px;
+}
+
+.part__3.button_tn02{
+    position: absolute; /* let's get into 00's years */
+    width: 30px;
+    left: 114px;
+}
+
+.main__section{
+    width: max-content;
+    height: 940px;
+    margin: 20px 0 20px 0 ;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    object-fit: cover;
+}
+
+.inner.main_section{
+    width: 1600px;
+    height: 940px;
+    max-height: 1000px;
+}
+
+.img__block.main_section{
+    width: 1600px;
+    min-height: 940px;
+    object-fit: cover;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img.main_section{
+    width: 1600px;
+    height: 940px;
+    object-fit: cover;
+}
+
+.button_block{
+    width: 1600px;
+    margin-top: -100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.inner.text_main_section{
+    height: 130px;
+    margin: 50px 0;
+}
+
+.text_main_section{
+    width: 1600px;
+    height: 130px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.text.text_main_section h1{
+    width: fit-content;
+    font-size: 185px;
+    font-family: 'atlantic';
+    font-style: italic;
+    font-weight: 400;
+}
+
+.text.text_main_section p{
+    position: absolute;
+    width: 405px;
+    font-size: 16px;
+    font-family: 'Inter';
+    font-weight: 400;
+    text-align: justify;
+
+    top: -20px;
+    right: 0;
+}
+
+.menu__section{
+    width: 1600px;
+    height: 900px;
+}
+
+.menu__section h1{
+    width: 640px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 90px;
+    text-transform: uppercase;
+    margin: 200px 100px 0 100px;
+    color: white;
+}
+
+.menu__section p{
+    width: 480px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    margin: 30px 102px 0 104px;
+    color: white;
+}
+
+.menu__section.button_tn01{
+    color: #0B8882;
+}
+
+.button_tn01.menu_section{
+    text-transform: uppercase;
+    color: #0B8882;
+    margin: 70px 102px 0 104px;
+}
+
+.img_block.menu_section{
+    width: 1600px;
+    position: relative;
+    top: 40px;
+}
+
+.img__main.menu_section{
+    position: absolute;
+    width: 670px;
+    border: 5px solid #F7B267;
+    top: 0;
+    right: 100px;
+}
+
+.gallery__section{
+    width: 1600px;
+    height: 1100px;
+    position: relative;
+}
+
+.gallery__section h1{
+    width: 660px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 120px;
+    line-height: 90px;
+    text-transform: uppercase;
+    margin: 80px 0 0 0;
+    color: #0B8882;
+}
+
+.gallery__section p{
+    width: 480px;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.gallery__block__flex{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.grid1.gallery_section{
+    width: 1400px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 400px 600px 200px;
+    gap: 10px 0px;
+}
+
+.grid2.gallery_section{
+    width: 1400px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 600px 400px 200px;
+    gap: 10px 0px;
+}
+
+.img1, .img3, .img5, .img6{
+    width:400px;
+    height:400px;
+    object-fit:cover;
+    padding: 10px;
+    transform: translate3d(0px, 0rem, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+    animation: 0.5s glitchy_out;
+    -webkit-animation: 0.5s glitchy_out;
+}
+
+.img2, .img4{
+    width:600px;
+    height:400px;
+    object-fit:cover;
+    padding: 10px;
+    animation: 0.5s glitchy_out;
+    -webkit-animation: 0.5s glitchy_out;
+}
+.desktop{
+    display: flex;
+}
+.mobile{
+    display: none;
+}
+
+.birthday__section{
+    width: 1600px;
+    height: 900px;
+}
+
+.text__block.birthday_section{
+    position: relative;
+}
+
+.text__block.birthday_section h1{
+    position: absolute;
+    left: 900px;
+    width: 730px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 90px;
+    text-transform: uppercase;
+    margin: 100px 0 0 0;
+    color: white;
+}
+
+.text__block.birthday_section p{
+    position: absolute;
+    left: 900px;
+    width: 480px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    margin: 420px 0 0 0;
+    color: white;
+}
+
+.text__block.birthday_section.button_tn01{
+    color: #0B8882;
+}
+
+.button_tn01.birthday_section{
+    position: absolute;
+    left: 900px;
+    text-transform: uppercase;
+    color: #0B8882;
+    margin: 670px 0 0 0;
+}
+
+.img_block.birthday_section{
+    width: 1600px;
+    position: relative;
+    top: 40px;
+}
+
+.img__main.birthday_section{
+    position: absolute;
+    width: 670px;
+    border: 5px solid #F7B267;
+    top: 0;
+    left: 100px;
+}
+
+
+
+.faq__section{
+    width: 1600px;
+    height: 900px;
+    position: relative;
+}
+
+.faq__section h1{
+    width: fit-content;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 120px;
+    line-height: 90px;
+    text-transform: uppercase;
+    margin: 80px 0 0 0;
+    color: #0B8882;
+}
+
+.paragraph.faq_section{
+    width: 480px;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.accordion{
+    position: absolute;
+    width: 700px;
+    height: 300px;
+    top: 300px;
+    left: calc(50% + 60px);
+}
+.accordion .accordion-item {
+  border-bottom: 1px solid bisque;
+}
+.accordion .accordion-item button[aria-expanded='true'] {
+  border-bottom: 1px solid #F7B267;
+}
+.accordion button {
+  position: relative;
+  display: block;
+  text-align: left;
+  width: 100%;
+  padding: 1em 0;
+  color: black;
+  font-size: 1.15rem;
+  font-weight: 400;
+  border: none;
+  background: none;
+  outline: none;
+}
+.accordion button:hover, .accordion button:focus {
+  cursor: pointer;
+  color: #0B8882;
+}
+.accordion button:hover::after, .accordion button:focus::after {
+  cursor: pointer;
+  color: #F7B267;
+  border: 1px solid #F7B267;
+}
+.accordion button .accordion-title {
+    padding: 10px 1.5em 10px 0;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 20px;
+}
+.accordion button .icon {
+  display: inline-block;
+  position: absolute;
+  top: 18px;
+  right: 0;
+  width: 38px;
+  height: 38px;
+  border: 1px solid;
+  border-radius: 22px;
+}
+.accordion button .icon::before {
+  display: block;
+  position: absolute;
+  content: '';
+  left: 9px;
+  top: 16px;
+  width: 17px;
+  height: 3.5px;
+  background: currentColor;
+}
+.accordion button .icon::after {
+  display: block;
+  position: absolute;
+  content: '';
+  top: 9px;
+  left: 16px;
+  width: 3.5px;
+  height: 17px;
+  background: currentColor;
+}
+.accordion button[aria-expanded='true'] {
+  color: #03b5d2;
+}
+.accordion button[aria-expanded='true'] .icon::after {
+  width: 0;
+}
+.accordion button[aria-expanded='true'] + .accordion-content {
+  opacity: 1;
+  max-height: 9em;
+  transition: all 200ms linear;
+  will-change: opacity, max-height;
+}
+.accordion .accordion-content {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: opacity 200ms linear, max-height 200ms linear;
+  will-change: opacity, max-height;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+}
+.accordion .accordion-content p {
+  font-size: 1rem;
+  font-weight: 300;
+  margin: 2em 0;
+}
+
+.review__section{
+    width: 1300px;
+    height: 320px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 25px 0;
+}
+
+.review__section h1{
+    width: fit-content;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 80px;
+    line-height: 20px;
+    text-transform: uppercase;
+    margin: 80px 0 0 0;
+    color: white;
+}
+
+.review__section p{
+    width: 870px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+
+    text-align: center;
+
+    color: white;
+}
+
+.button__block.review_section{
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: end;
+    margin-top: -100px;
+}
+
+.button_tn01.review_section{
+    color: #0B8882;
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+.contacts__section{
+    width: 1600px;
+    height: 600px;
+}
+
+.contacts__section h1{
+    width: fit-content;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 120px;
+    line-height: 90px;
+    text-transform: uppercase;
+    margin: 80px 0 0 0;
+    color: #0B8882;
+}
+
+.flex_container.contacts_section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 400px;
+}
+
+.element.contacts_section{
+    width: 400px;
+    height: 300px;
+    position: relative;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.element img{
+    width: 100px;
+    margin-left: 0;
+}
+
+.element h2{
+    margin-top: 50px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 20px;
+}
+
+.element p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+/* черная машина еду в мерседесе */
+
+.footer__section{
+    display: flex;
+    width: 1400px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.flex_container_between{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1600px;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.logo_container.footer_section{
+    width: 200px;
+    height: 400px;
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 120px;
+}
+.logo_container.footer_section h2{
+    font-family: 'Atlantic';
+    font-style: italic;
+    color: white;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+.contactInformation.footer_section{
+    width: 600px;
+    height: 400px;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 120px;
+}
+
+.contactInformation p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    color: white;
+}
+
+.email_container.footer_section{
+    width: 150px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 120px;
+}
+
+.email_container h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    color: white;
+    opacity: 0.7;
+}
+
+.email_container p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: white;
+}
+
+.flex-centerise{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.underline{
+    width: 1400px;
+    height: 2px;
+    background: white;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.navigation_bar.footer_section{
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+}
+
+.navbar.footer_section{
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    justify-content: space-between;
+}
+
+.navbar.footer_section a{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: white;
+}
+
+.footer__section p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: white;
+}
+
+.copyright p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: white;
+    opacity: 0;
+    transition: opacity 1s;
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -ms-transition: opacity 1s;
+    -o-transition: opacity 1s;
+}
+
+.copyright p:hover{
+    opacity: 1;
+    cursor: pointer;
+}
