@@ -5,11 +5,12 @@ for (let anchor of anchors) {
     e.preventDefault()
     
     const blockID = anchor.getAttribute('href').substr(1)
-    
-    document.getElementById(blockID).scrollIntoView({
-      behavior: 'smooth',
-      block: 'start'
-    })
+    if (blockID.scrollIntoView != null){
+      document.getElementById(blockID).scrollIntoView({
+        behavior: 'smooth',
+        block: 'start'
+      })
+    }
   })
 }
 
@@ -60,14 +61,14 @@ submit.addEventListener('submit',(e)=>{
   let ebody = "<p>Имя: </p>" + bookerName.value + "<br><p>Телефон: </p>" + bookerTel.value + "<br><p>Электронная Почта: </p>" + bookerEmail.value + "<br><p>Дата: </p>" + bookingDate.value + "<br><p>Пожелания: </p>" + bookerInfo.value + "<br>"
 
   Email.send({
-    Host : "smtp.elasticemail.com",
-    Username : "vinonetbar@gmail.com",
-    Password : "4A4DF453AE9B0F3F5D5E39809CD9F5C62ADC",
+    SecureToken : "051e6564-26dc-43ba-aa74-5ee645f0775d",
     To : 'vinonetbar@gmail.com',
     From : "vinonetbar@gmail.com",
     Subject : "Бронь от " + bookerName.value,
     Body : ebody
-  });
+  }).then(
+    close_popup()
+  )
 });
 
 
