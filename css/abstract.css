@@ -1,0 +1,56 @@
+.abstract{
+    position: relative;
+    top: 0;
+    z-index: -1;
+}
+
+.abstract div{
+    position: absolute;
+}
+
+.abstract div.curve1{
+    left: -50px;
+    top: 200px;
+    rotate: 15deg;
+}
+
+.abstract div.curve2{
+    top: 1340px;
+}
+
+.abstract div.curve3{
+    top: 2000px;
+}
+
+.curve3 img{
+    width: 100vw;
+    object-fit: cover;
+}
+
+.abstract div.curve4{
+    top: 3150px;
+}
+
+.curve4 img{
+    width: 100vw;
+    object-fit: cover;
+}
+
+.abstract div.curve5{
+    top: 4050px;
+}
+
+.curve5 img{
+    width: 100vw;
+    object-fit: cover;
+}
+
+.abstract div.curve6{
+    top: 4850px;
+    left: -200px;
+}
+
+.curve6 img{
+    width: calc(100vw + 200px);
+    object-fit: cover;
+}

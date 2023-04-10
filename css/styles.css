@@ -19,6 +19,7 @@ body{
     order: 0;
     flex-grow: 0;
     overflow-x: hidden;
+    
 }
 
 a{
@@ -44,6 +45,7 @@ h1{
 
 .background_block_green{
     position: absolute;
+    height: 900px;
     width: 100vw;
     left: 0;
     background-color: #0B8882;
@@ -191,6 +193,7 @@ _ = the double class for styling other elements in block or section
     padding: 0;
     display: flex;
     justify-content: center;
+    z-index: 1000;
 }
 
 .inner.nav_section{
@@ -218,11 +221,14 @@ _ = the double class for styling other elements in block or section
 
 .button_tn01{
     width: max-content;
-    padding: 10px;
-    margin-top: -10px;
+    width: 185px;
+    height: 45px;
+    padding: 15px;
+    margin-top: -15px;
     border-radius:12px;
     font-size: 14px;
     font-weight: 600;
+    text-align: center;
 }
 
 .button_tn02.image{
@@ -246,7 +252,7 @@ _ = the double class for styling other elements in block or section
 
 .main__section{
     width: max-content;
-    height: 940px;
+    height: 1000px;
     margin: 20px 0 20px 0 ;
     padding: 0;
     display: flex;
@@ -272,6 +278,7 @@ _ = the double class for styling other elements in block or section
     width: 1600px;
     height: 940px;
     object-fit: cover;
+    margin-top: 80px;
 }
 
 .button_block{
@@ -280,6 +287,13 @@ _ = the double class for styling other elements in block or section
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+.button_tn01.main_section{
+    width: 315px;
+    height: 57px;
+    text-align: center;
+    padding-top: 19px;
 }
 
 .inner.text_main_section{
@@ -300,7 +314,7 @@ _ = the double class for styling other elements in block or section
     width: fit-content;
     font-size: 185px;
     font-family: 'atlantic';
-    font-style: italic;
+    font-style: normal;
     font-weight: 400;
 }
 
@@ -310,7 +324,6 @@ _ = the double class for styling other elements in block or section
     font-size: 16px;
     font-family: 'Inter';
     font-weight: 400;
-    text-align: justify;
 
     top: -20px;
     right: 0;
@@ -349,6 +362,8 @@ _ = the double class for styling other elements in block or section
 }
 
 .button_tn01.menu_section{
+    width: 346px;
+    height: 45px;
     text-transform: uppercase;
     color: #0B8882;
     margin: 70px 102px 0 104px;
@@ -357,7 +372,7 @@ _ = the double class for styling other elements in block or section
 .img_block.menu_section{
     width: 1600px;
     position: relative;
-    top: 40px;
+    top: 48px;
 }
 
 .img__main.menu_section{
@@ -387,7 +402,7 @@ _ = the double class for styling other elements in block or section
 }
 
 .gallery__section p{
-    width: 480px;
+    width: 510px;
     position: absolute;
     top: 70px;
     right: 0;
@@ -406,23 +421,23 @@ _ = the double class for styling other elements in block or section
 }
 
 .grid1.gallery_section{
-    width: 1400px;
+    width: 100vw;
     height: 400px;
     display: grid;
-    grid-template-columns: 400px 600px 200px;
+    grid-template-columns: 25vw 50vw 25vw;
     gap: 10px 0px;
 }
 
 .grid2.gallery_section{
-    width: 1400px;
+    width: 100vw;
     height: 400px;
     display: grid;
-    grid-template-columns: 600px 400px 200px;
+    grid-template-columns: 50vw 25vw 25vw;
     gap: 10px 0px;
 }
 
 .img1, .img3, .img5, .img6{
-    width:400px;
+    width:25vw;
     height:400px;
     object-fit:cover;
     padding: 10px;
@@ -433,7 +448,7 @@ _ = the double class for styling other elements in block or section
 }
 
 .img2, .img4{
-    width:600px;
+    width:50vw;
     height:400px;
     object-fit:cover;
     padding: 10px;
@@ -472,8 +487,8 @@ _ = the double class for styling other elements in block or section
 
 .text__block.birthday_section p{
     position: absolute;
+    width: 535px;
     left: 900px;
-    width: 480px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -489,6 +504,8 @@ _ = the double class for styling other elements in block or section
 
 .button_tn01.birthday_section{
     position: absolute;
+    width: 413px;
+    text-align: center;
     left: 900px;
     text-transform: uppercase;
     color: #0B8882;
@@ -505,7 +522,7 @@ _ = the double class for styling other elements in block or section
     position: absolute;
     width: 670px;
     border: 5px solid #F7B267;
-    top: 0;
+    top: 8px;
     left: 100px;
 }
 
@@ -513,7 +530,7 @@ _ = the double class for styling other elements in block or section
 
 .faq__section{
     width: 1600px;
-    height: 900px;
+    height: 700px;
     position: relative;
 }
 
@@ -591,7 +608,7 @@ _ = the double class for styling other elements in block or section
   right: 0;
   width: 38px;
   height: 38px;
-  border: 1px solid;
+  border: 1px solid #B3B3B3;
   border-radius: 22px;
 }
 .accordion button .icon::before {
@@ -602,7 +619,7 @@ _ = the double class for styling other elements in block or section
   top: 16px;
   width: 17px;
   height: 3.5px;
-  background: currentColor;
+  background: #B3B3B3;
 }
 .accordion button .icon::after {
   display: block;
@@ -612,7 +629,7 @@ _ = the double class for styling other elements in block or section
   left: 16px;
   width: 3.5px;
   height: 17px;
-  background: currentColor;
+  background: #B3B3B3;
 }
 .accordion button[aria-expanded='true'] {
   color: #03b5d2;
@@ -679,7 +696,8 @@ _ = the double class for styling other elements in block or section
 }
 
 .button__block.review_section{
-    width: 500px;
+    width: 680px;
+    height: 51px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -688,9 +706,13 @@ _ = the double class for styling other elements in block or section
 }
 
 .button_tn01.review_section{
+    width: 315px;
+    height: 50px;
     color: #0B8882;
     text-transform: uppercase;
-    padding: 20px;
+    text-align: center;
+    padding: 17px 0 0 0;
+    margin-top: 80px;
 }
 
 .contacts__section{
@@ -753,6 +775,7 @@ _ = the double class for styling other elements in block or section
 .footer__section{
     display: flex;
     width: 1400px;
+    height: 450px;
     flex-wrap: wrap;
     justify-content: space-between;
 }
@@ -761,6 +784,7 @@ _ = the double class for styling other elements in block or section
     display: flex;
     flex-wrap: wrap;
     width: 1600px;
+    height: 350px;
     justify-content: space-around;
     flex-direction: row;
 }
