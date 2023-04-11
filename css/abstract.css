@@ -1,7 +1,9 @@
 .abstract{
+    max-width: 100vw;
     position: relative;
     top: 0;
     z-index: -1;
+    display: inline-block;
 }
 
 .abstract div{
@@ -53,4 +55,34 @@
 .curve6 img{
     width: calc(100vw + 200px);
     object-fit: cover;
+}
+
+@media screen and (max-width:1200px) {
+    .abstract div.curve1{
+        left: -50px;
+        top: 200px;
+        rotate: 15deg;
+    }
+    .abstract div.curve2{
+        top: 1440px;
+    }
+    .curve1 img{
+        width: 100vw;
+    }
+    .curve2 img{
+        width: 100vw;
+    }
+    .abstract div.curve3{
+        top: 2640px;
+    }
+    .abstract div.curve4{
+        top: 3830px;
+    }
+    .abstract div.curve5{
+        top: 4950px;
+    }
+    .abstract div.curve6{
+        top: 5920px;
+        left: -200px;
+    }
 }
