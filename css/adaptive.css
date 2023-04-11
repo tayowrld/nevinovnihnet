@@ -273,7 +273,7 @@
     }
     .faq__section{
         width: 900px;
-        height: 700px;
+        height: 900px;
         position: relative;
         display: flex;
         flex-wrap: wrap;
@@ -346,12 +346,12 @@
         color: white;
     }
     .button__block.review_section{
-        width: 500px;
+        width: 650px;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
         align-items: end;
-        margin-top: 20px;
+        margin-top: -80px;
     }
     .contacts__section{
         width: 900px;
