@@ -1,18 +1,4 @@
-const anchors = document.querySelectorAll('a[href*="#"]')
 
-for (let anchor of anchors) {
-  anchor.addEventListener('click', function (e) {
-    e.preventDefault()
-    
-    const blockID = anchor.getAttribute('href').substr(1)
-    if (blockID.scrollIntoView != null){
-      document.getElementById(blockID).scrollIntoView({
-        behavior: 'smooth',
-        block: 'start'
-      })
-    }
-  })
-}
 
 
 
@@ -34,13 +20,13 @@ function toggleAccordion() {
 items.forEach(item => item.addEventListener('click', toggleAccordion));
 
 
-const popup = document.querySelector(".container__popup");
+const popup = document.querySelector(".container__popup.review");
 
-function close_popup(){
+function close_popup_review(){
   popup.setAttribute("style","visibility:hidden; opacity: 0;");
 }
 
-function open_popup(){
+function open_popup_review(){
   popup.setAttribute("style","visibility:visible; opacity:1;");
 }
 
@@ -55,21 +41,21 @@ const submit = document.getElementsByClassName('container__popup')[0];
 
 
 
-submit.addEventListener('submit',(e)=>{
-  e.preventDefault();
+// submit.addEventListener('submit',(e)=>{
+//   e.preventDefault();
 
-  let ebody = "<p>Имя: </p>" + bookerName.value + "<br><p>Телефон: </p>" + bookerTel.value + "<br><p>Электронная Почта: </p>" + bookerEmail.value + "<br><p>Дата: </p>" + bookingDate.value + "<br><p>Пожелания: </p>" + bookerInfo.value + "<br>"
+//   let ebody = "<p>Имя: </p>" + bookerName.value + "<br><p>Телефон: </p>" + bookerTel.value + "<br><p>Электронная Почта: </p>" + bookerEmail.value + "<br><p>Дата: </p>" + bookingDate.value + "<br><p>Пожелания: </p>" + bookerInfo.value + "<br>"
 
-  Email.send({
-    SecureToken : "051e6564-26dc-43ba-aa74-5ee645f0775d",
-    To : 'vinonetbar@gmail.com',
-    From : "vinonetbar@gmail.com",
-    Subject : "Бронь от " + bookerName.value,
-    Body : ebody
-  }).then(
-    close_popup()
-  )
-});
+//   Email.send({
+//     SecureToken : "051e6564-26dc-43ba-aa74-5ee645f0775d",
+//     To : 'vinonetbar@gmail.com',
+//     From : "vinonetbar@gmail.com",
+//     Subject : "Бронь от " + bookerName.value,
+//     Body : ebody
+//   }).then(
+//     close_popup()
+//   )
+// });
 
 
 

@@ -12,12 +12,20 @@
 
 .abstract div.curve1{
     left: -50px;
-    top: 200px;
+    top: 120px;
     rotate: 15deg;
 }
 
+.curve1 img{
+    width: 1400px;
+}
+
 .abstract div.curve2{
-    top: 1340px;
+    top: 1275px;
+}
+
+.curve2 img{
+    width: 80vw;
 }
 
 .abstract div.curve3{

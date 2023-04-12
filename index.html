@@ -36,9 +36,8 @@
         </div>
     </div>
 
-    <form class="container__popup booking" style="visibility: hidden; opacity: 0;">
+    <!-- <form class="container__popup booking" style="visibility: hidden; opacity: 0;">
         <div class="inner container_popup">
-            <img src="./images/x.svg" alt=""  class="cross" onclick="close_popup()">
             <h1>Забронировать Столик</h1>
             <ul class="content">
                 <li>
@@ -58,12 +57,11 @@
             <input type="text" id="Name" placeholder="Ваше имя" required>
             <input type="tel" id="Telephone" placeholder="Ваш номер телефона" required>
             <input type="email" id="E-mail" placeholder="Ваша электронная почта">
-            <input type="datetime-local" id="DataTime" placeholder="Выберете удобную дату и время" required>
             <input type="text" id="Other" placeholder="Дополнительная информация" style="height: 120px;">
-                <input id="submit" type="submit" class="submit" onclick="close_popup()"></input>
-            <p class="bron">Нажимая на кнопку “Забронировать”, вы даете согласие на обработку своих персональных данных</p>
+                <input id="submit" type="submit" class="submit" placeholder=""></input>
+            <p class="bron">Нажимая на кнопку, вы даете согласие на обработку своих персональных данных</p>
         </div>
-    </form>
+    </form> -->
 
     <section class="nav__section" id="nav">
         <div class="inner nav_section">
@@ -83,17 +81,10 @@
                 <li class="element__nav el5">
                     <a href="#contacts" class="link nav_element">Контакты</a>
                 </li>
-                <li class="element__nav el6">
-                    <!-- button_tn01 - standart button contains an background color (in class)
-                        and text block -->
-                    <a href="#" class="button__tn01" onclick="open_popup()">
-                        <div class="button_tn01 nav_section bg_green">Забронировать</div>
-                    </a>
-                </li>
                 <li class="element__nav el7">
-                    <!-- button_tn02 - button contains an image or a few 
+                    <!-- button_tn02 - button contains an image or a few
                         images parts of one without text and background -->
-                    <a href="#" class="button__tn02"> 
+                    <a href="https://eda.yandex.ru/ryazan/r/gastrobar_nevinovnyx_net" class="button__tn02"> 
                         <div class="button_tn02 image">
                             <img src="./images/ya1.svg" alt="" class="part__1 button_tn02 nav_el7">
                             <img src="./images/ya2.svg" alt="" class="part__2 button_tn02 nav_el7">
@@ -101,24 +92,29 @@
                         </div>
                     </a>
                 </li>
+                <li class="element_navbar el8">
+                    <a href="https://vk.com/vinonetbar"><img src="./images/socials/vk.svg" class=".social_icon" alt=""></a>
+                </li>
             </ul>
         </div>
     </section>
 
     <section class="main__section" id="main">
+        <a name="main"></a>
         <div class="inner main_section">
             <div class="img__block main_section">
                 <img src="./images/main_block_img.png" alt="" class="img main_section">
-                <div class="button_block">
-                    <a href="#" class="button__tn01">
+                <!-- <div class="button_block">
+                    <a href="https://eda.yandex.ru/ryazan/r/gastrobar_nevinovnyx_net" class="button__tn01">
                         <div class="button_tn01 main_section bg_orange">ЗАКАЗАТЬ ДОСТАВКУ ЯНДЕКС.ЕДА</div>
                     </a>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
 
-    <section class="text_main__section">
+    <section class="text_main__section" style="z-index: 2;">
+        <div class="background_block_green" style="height: 230px; background: white;"></div>
         <div class="inner text_main_section">
             <div class="text text_main_section">
                 <h1>
@@ -131,6 +127,7 @@
     </section>
 
     <section class="menu__section" id="menu">
+        <a name="menu"></a>
         <div class="img_block menu_section desktop">
             <img src="./images/SIN_3699 1.png" alt="" class="img__main menu_section">
         </div>
@@ -168,6 +165,7 @@
                     <img src="./images/gallery/6.jpg" class="img6" alt="">
                 </div>
             </div>
+            <a href="#">Показать галерею полностью</a>
         </div>
     </section>
 
@@ -187,6 +185,7 @@
     </section>
 
     <section class="faq__section" id="faq">
+        <a name="faq"></a>
         <h1>Вопрос-Ответ</h1>
         <p class="paragraph faq_section">“Вопрос-ответ” — это раздел на сайте, где мы решили ответить на самые популярные вопросы наших гостей. Очень надеемся, что это поможет вам. </p>
         <div class="accordion">
@@ -214,7 +213,7 @@
                 <p>Есть. На самовывоз СКИДКА 20%!</p>
             </div>
             </div>
-            <div class="accordion-item">
+            <div class="accordion-item" style="border-bottom: 0px;">
             <button id="accordion-button-5" aria-expanded="false"><span class="accordion-title">Есть ли у вас доставка?</span><span class="icon" aria-hidden="true"></span></button>
             <div class="accordion-content">
                 <p>Заказать доставку можно через приложения Яндекс.Еда</p>
@@ -228,16 +227,26 @@
         <h1>БУДЕМ РАДЫ ВАШИМ ОТЗЫВАМ</h1>
         <p>Мы будем рады, если вы оставите свой отзыв о нашей работе! Мы всегда с особым вниманием относимся к каждому вашему мнению о нас и стараемся стать еще лучше!</p> <br>
         <br><div class="button__block review_section">
-            <a href="#" class="button__tn01">
-                <div class="button_tn01 review_section bg_white">ОСТАВИТЬ ОТЗЫВ НА 2ГИС</div>
-            </a>
-            <a href="#" class="button__tn01">
-                <div class="button_tn01 review_section bg_orange" style="color: white;">ОСТАВИТЬ ОТЗЫВ НА Яндекс</div>
+            <a  onclick="open_popup_review()" class="button__tn01">
+                <div class="button_tn01 review_section bg_orange" style="color: white;">ОСТАВИТЬ ОТЗЫВ</div>
             </a>
         </div>
     </section>
+    <form class="container__popup review" style="visibility: hidden; opacity: 0;">
+        <div class="inner container_popup review">
+            <img src="./images/close.svg" alt="" class="cross" onclick="close_popup_review()">
+            <h1>Оставить Отзыв</h1>
+            <div class="underline"></div>
+            <textarea type="text" id="Name review" placeholder="Ваше имя" required></textarea>
+            <textarea type="email" id="E-mail review" placeholder="Ваша электронная почта"></textarea>
+            <textarea type="text" id="Other review" placeholder="Ваш отзыв" style="height: 120px;"></textarea>
+                <input id="submit" type="submit" class="submit" placeholder=""></input>
+            <p class="bron">Нажимая на кнопку, вы даете согласие на обработку своих персональных данных</p>
+        </div>
+    </form>
 
     <section class="contacts__section" id="contacts">
+        <a name="contacts"></a>
         <h1>КОНТАКТЫ</h1>
         <div class="flex_container contacts_section">
             <div class="element el1 contacts_section">
@@ -263,6 +272,9 @@
         <div class="flex_container_between">
             <div class="logo_container footer_section">
                 <h2>Невиновных Нет</h2>
+            </div>
+            <div class="vk footer_section">
+                <a href="https://vk.com/vinonetbar"><img src="./images/socials/vk_bw.svg" alt=""></a>
             </div>
             <div class="contactInformation footer_section">
                 <p>г. Рязань, Московское ш., 21, <br> 3 этаж <br> ВС. - ЧТ.: 12:00-00:00, <br> ПТ. - СБ.: 12:00-01:00 <br> +7 4912 202-002</p>
